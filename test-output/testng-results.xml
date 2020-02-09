@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[HomePageIsDisplayed]]>
+    </line>
+    <line>
+      <![CDATA[TesttestValidLogin is passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51991" started-at="2020-01-17T11:43:52Z" finished-at="2020-01-17T11:44:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51991" started-at="2020-01-17T11:43:52Z" finished-at="2020-01-17T11:44:44Z">
+      <class name="org.qsp.testPom.TestValidLogin">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:org.qsp.testPom.TestValidLogin@14acaea5]" name="openApp" is-config="true" duration-ms="33576" started-at="2020-01-17T11:43:52Z" finished-at="2020-01-17T11:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:org.qsp.testPom.TestValidLogin@14acaea5]" name="testValidLogin" duration-ms="6465" started-at="2020-01-17T11:44:26Z" finished-at="2020-01-17T11:44:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageIsDisplayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:org.qsp.testPom.TestValidLogin@14acaea5]" name="closeApp" is-config="true" duration-ms="11881" started-at="2020-01-17T11:44:32Z" finished-at="2020-01-17T11:44:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=TestValidLogin.testValidLogin()[pri:0, instance:org.qsp.testPom.TestValidLogin@14acaea5] output=HomePageIsDisplayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TesttestValidLogin is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- org.qsp.testPom.TestValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
